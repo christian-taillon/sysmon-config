@@ -12,9 +12,15 @@ Because virtually every line is commented and sections are marked with explanati
 
 - Sysmon is a compliment to native Windows logging abilities, not a replacement for it. For valuable advice on these configurations, see **[MalwareArchaeology Logging Cheat Sheets](https://www.malwarearchaeology.com/cheat-sheets)** by [@HackerHurricane](https://twitter.com/hackerhurricane).
 
-Note: Exact syntax and filtering choices in the configuration are highly deliberate in what they target, and to have as little performance impact as possible. Sysmon's filtering abilities are different than the built-in Windows auditing features, so often a different approach is taken than the normal static listing of paths. 
+Note: Exact syntax and filtering choices in the configuration are highly deliberate in what they target, and to have as little performance impact as possible. Sysmon's filtering abilities are different than the built-in Windows auditing features, so often a different approach is taken than the normal static listing of paths.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[See other forks of this configuration](https://github.com/SwiftOnSecurity/sysmon-config/network)**
+
+See alternative configuration options:
+-   [Microsoft documentation on Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)
+-   [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/)
+-   [Olaf Hartong's sysmon-modular](https://github.com/olafhartong/sysmon-modular)
+-   [SwiftOnSecurity sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config)
 
 ## Use ##
 ### Install ###
